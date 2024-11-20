@@ -1,0 +1,20 @@
+{
+    "name": "the-trybe/monolog-ecs-formatter",
+    "description": "Elastic Common Schema Formatter for Monolog",
+    "type": "library",
+    "require": {
+        "monolog/monolog": ">=2.4.0",
+        "elastic/ecs-logging": ">=1.0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheTrybe\\Monolog\\Formatter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Remita Amine",
+            "email": "remitamine@gmail.com"
+        }
+    ]
+}
